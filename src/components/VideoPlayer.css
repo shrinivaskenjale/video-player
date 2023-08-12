@@ -1,0 +1,28 @@
+.video-player {
+  width: 90vw;
+  max-width: 600px;
+  box-shadow: 0 0.5rem 1.5rem 0.5rem rgb(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+}
+
+.video-controls {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  background: rgb(22, 22, 94);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.video {
+  border-radius: 0.5rem 0.5rem 0 0;
+  height: 400px;
+  object-fit: contain;
+  background: black;
+}
+
+.video-controls button,
+.video-controls input {
+  cursor: pointer;
+}
